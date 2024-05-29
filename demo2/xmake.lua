@@ -2,18 +2,31 @@ add_rules("mode.debug", "mode.release")
 
 target("LibraryStatic")
     set_kind("static")
+    add_includedirs("src")
     add_files("src/LibraryStatic/*.cpp")
+    
+
+target("LibrarySharedLink")
+    set_kind("shared")
+    add_includedirs("src")
+    add_files("src/LibrarySharedLink/*.cpp")
+    add_defines("LIBRARY_EXPORTS")
+
 
 target("LibraryShared")
     set_kind("shared")
+    add_includedirs("src")
     add_files("src/LibraryShared/*.cpp")
+    add_defines("LIBRARY_EXPORTS")
+
 
 target("demo2")
     set_kind("binary")
     add_files("src/*.cpp")
     add_deps("LibraryStatic")
     add_includedirs("src/LibraryStatic")
-    add_deps("LibraryShared")
+    add_deps("LibrarySharedLink")
+    add_includedirs("src/LibrarySharedLink")
     add_includedirs("src/LibraryShared")
 
 

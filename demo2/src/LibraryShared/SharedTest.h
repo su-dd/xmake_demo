@@ -1,13 +1,14 @@
 #ifndef __SHAREDTEST_H__
 #define __SHAREDTEST_H__
+#include "TestInf.h"
+#include "Library_api.h"
+class SharedTest : public TestInf
+{
+public:
+    void test() override;
+};
 
-#if defined(_WIN32)
-#define __export __declspec(dllexport)
-#elif defined(__GNUC__) && ((__GNUC__ >= 4) || (__GNUC__ == 3 && __GNUC_MINOR__ >= 3))
-#define __export __attribute__((visibility("default")))
-#else
-#define __export
-#endif
+extern "C" LIBRARY_API TestInf *createTest();
+extern "C" LIBRARY_API void destroyTest(TestInf *pTest);
 
-__export int SharedTest();
 #endif // __SHAREDTEST_H__

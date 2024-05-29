@@ -1,9 +1,11 @@
 #ifndef __STATICTEST_H__
 #define __STATICTEST_H__
 
-class StaticTest
+#include "TestInf.h"
+
+class StaticTest : public TestInf
 {
 public:
-    static void test();
+    void test() override;
 };
 #endif // __STATICTEST_H__

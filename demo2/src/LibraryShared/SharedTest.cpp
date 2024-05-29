@@ -1,8 +1,18 @@
 #include "SharedTest.h"
 #include <iostream>
 
-int SharedTest()
+// 测试代码
+void SharedTest::test()
 {
     std::cout << "this is SharedTest !" << std::endl;
-    return 1;
+}
+
+TestInf *createTest()
+{
+    return new SharedTest();
+}
+
+void destroyTest(TestInf *pTest)
+{
+    delete pTest;
 }

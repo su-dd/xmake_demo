@@ -3,5 +3,5 @@
 
 void StaticTest::test()
 {
-    std::cout << "this is StaticTest !" << std::endl;
+    std::cout << "this is StaticTest!" << std::endl;
 }
