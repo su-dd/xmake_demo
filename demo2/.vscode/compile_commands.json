@@ -1,0 +1,16 @@
+[
+{
+  "directory": "d:\\workspace\\xmake_demo\\demo2",
+  "arguments": ["C:\\Programs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.demo2.pdb", "/Od", "/Isrc\\LibraryStatic", "/Isrc\\LibraryShared", "/EHsc", "/Fobuild\\.objs\\demo2\\windows\\x64\\debug\\src\\main.cpp.obj", "src\\main.cpp", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt", "-imsvc", "C:\\Programs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include"],
+  "file": "src\\main.cpp"
+},
+{
+  "directory": "d:\\workspace\\xmake_demo\\demo2",
+  "arguments": ["C:\\Programs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.LibraryShared.pdb", "/Od", "/EHsc", "/Fobuild\\.objs\\LibraryShared\\windows\\x64\\debug\\src\\LibraryShared\\SharedTest.cpp.obj", "src\\LibraryShared\\SharedTest.cpp", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt", "-imsvc", "C:\\Programs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include"],
+  "file": "src\\LibraryShared\\SharedTest.cpp"
+},
+{
+  "directory": "d:\\workspace\\xmake_demo\\demo2",
+  "arguments": ["C:\\Programs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\LibraryStatic.pdb", "/Od", "/EHsc", "/Fobuild\\.objs\\LibraryStatic\\windows\\x64\\debug\\src\\LibraryStatic\\test.cpp.obj", "src\\LibraryStatic\\test.cpp", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um", "-imsvc", "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt", "-imsvc", "C:\\Programs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\include"],
+  "file": "src\\LibraryStatic\\test.cpp"
+}]
