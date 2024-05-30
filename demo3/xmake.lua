@@ -3,7 +3,6 @@ add_rules("mode.debug", "mode.release")
 target("demo3")
     add_rules("qt.console")
     add_files("src/*.cpp")
-    add_includedirs("C:/Qt6/6.5.3/msvc2019_64/include")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
