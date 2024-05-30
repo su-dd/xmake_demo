@@ -10,7 +10,7 @@ LibraryStaticWidget::LibraryStaticWidget(QWidget *parent)
     layout->setContentsMargins(0, 0, 0, 0);
 
     QLabel *label = new QLabel(this);
-    label->setText(QStringLiteral("LibraryStatic模块中的窗口"));
+    label->setText(QString::fromUtf8("LibraryStatic模块中的窗口"));
     layout->addWidget(label);
 
     this->setLayout(layout);
